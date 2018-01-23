@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    background: white;
+    z-index: 0;
+    padding: 30px;
+    
+}
+
+.coins {
+    width: inherit;
+    z-index: 1;
+    background: white;
+    
+}
+
+#circle1 {
+    display: inline-block;
+    margin-left: 74px; 
+    width: 250px;
+    height: 250px;
+    background: #4745ff;
+    -webkit-border-radius: 250px;
+    line-height: 250px;
+    text-align: center;
+    float: left;
+}
+
+#circle2 {
+    display: inline-block;
+    margin: 0 190px;
+    width: 250px;
+    height: 250px;
+    background: #4745ff;
+    line-height: 250px;
+    text-align: center;
+    -webkit-border-radius: 250px;
+}
+
+#circle3 {
+    display: inline-block;
+    margin-right: 74px;
+    width: 250px;
+    height: 250px;
+    background: #4745ff;
+    line-height: 250px;
+    text-align: center;
+    -webkit-border-radius: 250px;
+    float: right;
+}
+
+.grids {
+    width: inherit;
+    z-index: 1;
+    background: #eee;
+    margin: 30px;
+    height: 1000px;
+}
+
+.column1 {
+    z-index: 3;
+    height: inherit;
+    width: 32%;
+    float: left;
+    background: #45FF83;
+    
+    
+}
+
+.column2 {
+    z-index: 3;
+    height: inherit;
+    width: 66%;
+    float: right;
+    background: white;     
+}
+
+.col2row1 {
+    width: 100%;
+    height: 50%;
+}
+
+#five {
+    width: 48%;
+    height: 98%;
+    float: left;
+    background: #EEF10E;
+}
+
+#six {
+    width: 48%;
+    height: 98%;
+    float: right;
+    background: #C725FF;
+    
+}
+
+.col2row2 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+    bottom: 0;
+    
+}
+
+#seven {
+    width: 48%;
+    height: 98%;
+    float: left;
+    background: #FF4697;
+}
+
+#eight {
+    width: 48%;
+    height: 98%;
+    float: right;
+    background: #FDBF24;
+}
+
